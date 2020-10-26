@@ -1,0 +1,9 @@
+[package]
+name = "ttml2srt"
+version = "0.1.0"
+authors = ["Mohammad AlSaleh <CE.Mohammad.AlSaleh@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+quick-xml = { version = "0.20", features = ["serialize"] }
+serde = { version = "1", features = ["derive"] }
